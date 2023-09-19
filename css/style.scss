@@ -10,7 +10,21 @@ body {
     color: black;
     margin: 0;
     max-width: 100vw;
+    max-height: 100vh;
 
+    >span:first-of-type {
+        float: right;
+    }
+
+    >span:nth-child(11) {
+        float: right;
+    }
+
+}
+
+.clear {
+
+    clear: both;
 }
 
 
@@ -21,12 +35,19 @@ body {
     position: relative;
     gap: 20px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
 
     width: 25%;
     background-color: lightgrey;
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
 }
 
 h3 {
