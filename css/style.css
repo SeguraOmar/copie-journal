@@ -68,32 +68,58 @@ button {
   border-left: 0.8rem solid transparent;
   border-right: 0.8rem solid transparent;
   border-top: 0.8rem solid white;
-}
-
-#logo {
-  width: 1rem;
-  height: 1rem;
+  display: inline-block;
 }
 
 #logo-journal {
   width: 6rem;
   height: 6rem;
+  color: grey;
+  filter: invert(50%);
+}
+
+#logo {
+  display: inline-block;
+  width: 120px;
+  float: left;
 }
 
 h1 {
-  display: flex;
+  position: relative;
+  margin: 0;
   font-size: 56px;
+  left: 14px;
 }
 
 h2 {
   background-color: black;
   color: white;
-  padding: 1rem;
+  padding: 0.6rem;
   border-radius: 12px;
   font-size: 24px;
+  margin: 10px;
 }
 
-#tite-flex {
+#title-flex {
   display: flex;
-  text-align: center;
+  display: inline-block;
+  width: 90%;
+}
+
+hr {
+  margin: 0;
+}
+
+h4 {
+  position: relative;
+  margin: 20px;
+  right: 5px;
+}
+
+#web {
+  color: grey;
+}
+
+#date_du_jour {
+  color: grey;
 }/*# sourceMappingURL=style.css.map */
